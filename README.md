@@ -1,4 +1,4 @@
 randomtwitch
 ============
 
-Pick a random stream from Twitch.tv via jQuery.
+Pick a "random" stream from Twitch.tv by via jQuery.
