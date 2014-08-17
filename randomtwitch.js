@@ -1,4 +1,4 @@
-var randomtwitch = function() { $.ajax({	//jQuery ajax call
+var randomtwitch = function() { $.ajax({										//jQuery ajax call
 	type: "GET",
 	dataType: "jsonp",
 	url: 'https://api.twitch.tv/kraken/search/streams?limit=100&q=starcraft',	//calling API, limit currently is 100 and querying for, in my case, StarCraft channels, can also add &offset=xx to offset the search
